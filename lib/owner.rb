@@ -68,7 +68,7 @@ class Owner
   
   
   def buy_fish(name)    #can buy a fish that is an instance of the Fish class
-    pets[:fish] << Fish.new(name)    
+    pets[:fishes] << Fish.new(name)    
   end
   
   
