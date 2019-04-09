@@ -5,10 +5,9 @@ class Owner
   OWNERS = []
   
   @pets = {}
-  @@all = []
 
   def initialize 
-    
+    @species = species 
   end
   
   ## CLASS METHODS ##
