@@ -24,3 +24,5 @@ describe Fish do
     fish.mood = "excited"
     expect(fish.mood).to eq("excited")
   end
+
+end
