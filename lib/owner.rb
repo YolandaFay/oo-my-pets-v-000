@@ -63,7 +63,7 @@ class Owner
   
   
   def pets    #is initialized with a pets attribute as a hash with 3 keys
-    @pets = {:fish => [], :dogs => [], :cats => []}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   
