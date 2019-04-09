@@ -47,8 +47,8 @@ class Owner
   
   ## INSTANCE METHODS ##
   
-  def species(species_name)   #initializes with a species
-    @species = species_name
+  def species(species)   #initializes with a species
+    @species = species
   end
   
   
