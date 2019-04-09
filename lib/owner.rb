@@ -5,20 +5,20 @@ class Owner
   @@owners = []
 
   def self.reset_all
-    OWNERS.clear
+    @@owners.clear
   end
 
   def self.all
-    OWNERS
+    @@owners
   end
 
   def self.count
-    OWNERS.size
+    @@owners.size
   end
 
   def initialize(species)
     @species = species
-    OWNERS << self
+    @@owners << self
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
