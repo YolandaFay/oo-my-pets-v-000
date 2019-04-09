@@ -14,7 +14,7 @@ class Owner
   ## CLASS METHODS ##
    
   def self.all 
-    @@all 
+    OWNERS
   end
       
       
