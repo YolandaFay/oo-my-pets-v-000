@@ -47,9 +47,9 @@ class Owner
   
   ## INSTANCE METHODS ##
   
-  def species(species)   #initializes with a species
-    @species = species
-  end
+  #def species(species)   #initializes with a species
+  #  @species = species
+  #end
   
   
   def say_species   #can say its species
@@ -57,14 +57,14 @@ class Owner
   end
   
   
-  def name    #can have a name
-    @name = name 
-  end
+  #def name    #can have a name
+   # @name = name 
+  #end
   
   
-  def pets    #is initialized with a pets attribute as a hash with 3 keys
-    @pets = {:fish => [], :dogs => [], :cats => []}
-  end
+  #def pets    #is initialized with a pets attribute as a hash with 3 keys
+   # @pets = {:fish => [], :dogs => [], :cats => []}
+  #end
   
   
   def buy_fish(name)    #can buy a fish that is an instance of the Fish class
