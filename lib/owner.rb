@@ -24,7 +24,7 @@ class Owner
       
       
   def self.reset_all
-    @@all = []
+    OWNERS = []
   end
 
   ## ALTERNATE class << self SYNTAX - NOT WORKING ##
