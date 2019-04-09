@@ -13,17 +13,17 @@ class Owner
   ## CLASS METHODS ##
    
   def self.all 
-    OWNERS
+    @@all
   end
       
       
   def self.count 
-    OWNERS.size  
+    @@all.size  
   end
       
       
   def self.reset_all
-    OWNERS = []
+    @@all = []
   end
 
   ## ALTERNATE class << self SYNTAX - NOT WORKING ##
