@@ -3,9 +3,9 @@ class Cat
   attr_reader :name #can't change its name 
   
   
-  def initialize(name, mood="nervous")
+  def initialize(name)
     @name = name 
-    @mood = mood 
+    @mood = "nervouse"
   end
   
   
