@@ -47,9 +47,9 @@ class Owner
   
   ## INSTANCE METHODS ##
   
-  def species   #initializes with a species
-    @species = species
-  end
+  #def species   #initializes with a species
+   # @species = species
+ # end
   
   
   def say_species(species)   #can say its species
