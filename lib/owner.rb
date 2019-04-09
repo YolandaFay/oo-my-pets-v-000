@@ -57,9 +57,9 @@ class Owner
   end
   
   
-  #def name    #can have a name
-   # @name = name 
-  #end
+  def name(name)    #can have a name
+     @name = name 
+  end
   
   
   def pets    #is initialized with a pets attribute as a hash with 3 keys
