@@ -62,9 +62,9 @@ class Owner
   #end
   
   
-  #def pets    #is initialized with a pets attribute as a hash with 3 keys
-   # @pets = {:fish => [], :dogs => [], :cats => []}
-  #end
+  def pets    #is initialized with a pets attribute as a hash with 3 keys
+    @pets = {:fish => [], :dogs => [], :cats => []}
+  end
   
   
   def buy_fish(name)    #can buy a fish that is an instance of the Fish class
