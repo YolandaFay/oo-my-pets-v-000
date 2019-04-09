@@ -77,7 +77,7 @@ class Owner
   
   
   def buy_dog(name)     #can buy a dog that is an instance of the Dog class
-    Dog.new(name)
+    pets[:dogs] << Dog.new(name)
   end
   
   
