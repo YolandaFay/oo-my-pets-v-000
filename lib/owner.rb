@@ -6,8 +6,9 @@ class Owner
   
   @pets = {}
 
-  def initialize 
+  def initialize(species)
     @species = species 
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   ## CLASS METHODS ##
