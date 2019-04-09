@@ -3,8 +3,7 @@ class Owner
   attr_reader :species 
   
   @@all = []
-  @pets = {}
-  
+
   def initialize(species)
     @species = species
     @@all << self 
@@ -24,7 +23,7 @@ class Owner
       
       
   def self.reset_all
-    @@all = []
+    @@all.clear 
   end
 
   ## ALTERNATE class << self SYNTAX - NOT WORKING ##
