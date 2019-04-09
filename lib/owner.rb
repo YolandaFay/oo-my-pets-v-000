@@ -53,7 +53,7 @@ class Owner
   
   
   def say_species   #can say its species
-    "I am a #{species}."
+    puts "I am a #{species}."
   end
   
   
